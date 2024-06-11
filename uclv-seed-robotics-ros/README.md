@@ -1,8 +1,9 @@
 <!-- omit in toc -->
-# UCLV Robot Hand Controller ROS 2
+# UCLV Seed Robotic ROS
 
 
-This repository contains driver, in ROS2 and C++, for RH8D robotic hand by Seed Robotics. Developed at the Università degli Studi della Campania Luigi Vanvitelli.
+This project contains two nodes: a node to control the RH8D robotic hand from Seed Robotics and another node to obtain information from the FTS3 touch sensors, also from Seed Robotics.
+Developed at the University of Campania Luigi Vanvitelli.
 
 <!-- omit in toc -->
 ## Summary
@@ -35,25 +36,22 @@ This repository contains driver, in ROS2 and C++, for RH8D robotic hand by Seed 
 ## Additional Dependencies
 
 This project requires additional dependencies from other repositories. Clone the following repositories into your ROS 2 workspace:
-- `custom_msg` - Custom ROS 2 Message package
-- `my_library` - External library for robotic hand control
+- `uclv_seed_robotics_ros_interfaces` - Custom package with ROS 2 message
+- `uclv_dynamixel_utils` - External library for robotic hand control
 
-1. Custom Message Definitions:
+1. Interfaces:
    ```bash
     cd /path/to/your/ros2/workspace/src
-    git clone https://github.com/robertochello/custom_msg.git
+    git clone https://github.com/robertochello/uclv-seed-robotics-ros-interfaces.git
     ```
-2. Custom Library:
+2. Library:
     ```bash
     cd /path/to/your/ros2/workspace/src
-    git clone https://github.com/robertochello/my_library.git
+    git clone https://github.com/robertochello/uclv-dynamixel-utils.git
     ```
 
 ## Usage
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Authors
 
