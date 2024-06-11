@@ -20,12 +20,12 @@ Developed at the University of Campania Luigi Vanvitelli.
 1. Clone this repository into your ROS 2 workspace:
    ```bash
    cd /path/to/your/ros2/workspace/src
-   git clone https://github.com/robertochello/uclv-robot-hand-controller-ros2.git
+   git clone https://github.com/robertochello/uclv-seed-robotics-ros.git
    ```
 2. Build the package using `colcon`:
     ```bash
     cd /path/to/your/ros2/workspace
-    colcon build --packages-select uclv_robot_hand_controller
+    colcon build --packages-select uclv_seed_robotics_ros
     ```
 ## Dependencies
 
