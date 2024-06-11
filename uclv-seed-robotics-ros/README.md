@@ -12,6 +12,11 @@ Developed at the University of Campania Luigi Vanvitelli.
 - [Installation](#installation)
 - [Dependencies](#dependencies)
 - [Additional Dependencies](#additional-dependencies)
+- [Usage](#usage)
+  - [Running the Hand Driver node](#running-the-hand-driver-node)  
+  - [Sending command's to motor hand](#sending-commands-to-motors-hand)
+  - [Running the Fingertip Sensor node](#running-the-fingertip-sensors-node)
+  - [View Motor State](#view-motor-state)
 - [License](#license)
 - [Authors](#authors)
 
