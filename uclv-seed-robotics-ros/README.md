@@ -34,7 +34,6 @@ Developed at the University of Campania Luigi Vanvitelli.
     ```
 ## Dependencies
 
-- [ROS 2](https://index.ros.org/doc/ros2/) - Robot Operating System 2
 - `rclcpp` - ROS 2 C++ Client Library
 
 
