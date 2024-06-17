@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# UCLV Seed Robotic ROS
+# UCLV Seed Robotics ROS
 
 
 This project contains two nodes: a node to control the RH8D robotic hand from Seed Robotics and another node to obtain information from the FTS3 touch sensors, also from Seed Robotics.
